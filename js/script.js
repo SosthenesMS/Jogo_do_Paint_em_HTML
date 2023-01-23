@@ -45,27 +45,6 @@ function desenhaCirculo(evento){
 
 tela.onmousemove = desenhaCirculo;
 
-//ORIGINAL
-// function mudaCor(){
-//     contadorCor++;
-
-//     if(contadorCor >= cores.length){
-//         contadorCor = 0;
-//         alert('Você mudou de cor para ' + "'" + cores[contadorCor] + "'!");
-        
-//     } else if(contadorCor == 3){
-//         alert("Você mudou para Borracha!");
-        
-
-//     } else {
-//         alert('Você mudou de cor para ' + "'" + cores[contadorCor] + "'!");
-        
-//    }
-
-//     return false;
-
-// }
-
 function mudaCor(){
 
     iCount++;
